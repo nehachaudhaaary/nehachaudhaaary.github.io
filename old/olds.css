@@ -1,0 +1,129 @@
+/* header */
+header{
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(230, 26, 90);
+    color: white;
+    
+}
+
+header h1{
+    font-size: 31px;
+    font-style: italic;
+}
+/* dark mode */
+nav { 
+    padding: 25px;
+    background-color: white;
+    color: rgb(3, 3, 48);
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color:  rgb(3, 3, 48);
+    color: white;
+  }
+
+  /* navigation */
+  nav{
+    display: flex;
+    background-color: rgb(237, 167, 189);
+    /*overflow: hidden;*/
+}
+nav a{
+    display: block;
+    color: rgb(230, 26, 90);
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+    text-decoration: wavy;
+}
+/* menu hover */
+.menu-btn:hover{
+    background-color: rgb(230, 26, 90);
+    color: lavender;
+}
+
+/* sections */
+section{
+    text-align: center;
+    padding-top: 40px;
+    height: 100vh;
+
+}
+/* footer */
+footer{
+    overflow: hidden;
+    background-color: rgb(237, 167, 189);
+}
+
+footer a{
+    display: block;
+    color: rgb(230, 26, 90);
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+}
+
+.copyright{
+    float: right;
+}
+/* animation */
+h2{
+    animation: bouncing 0.7s ease 0s infinite alternate both;
+    background: rgb(230, 26, 90);
+    border-radius: 50%;
+    display: inline-block;
+    color:  white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+    padding: 1em 2em 1.1em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    margin-top: 100px;
+}
+/* profile */
+    .profile{
+        border-radius: 500;
+    }
+    
+    .profile-name{
+        font-size: 2em;
+        font-weight: 900;
+        letter-spacing: 4px;
+        word-spacing: 10px;
+        text-transform: uppercase;
+        margin: 20px 0px 30px 0px;
+    }
+
+
+/* intro */
+.intro{
+    font-size: 25px;
+    margin: 20px;
+    text-indent: 100px;
+    word-spacing: 1.5;
+}
+
+
+@keyframes bouncing {
+    0%{
+        bottom: 0;
+        box-shadow: 0 0 5px rgb(59, 56, 56);
+    }
+    100%{
+        bottom: 50px;
+        box-shadow: 50px 50px rgb(176, 171, 171);
+    }
+}
+
+@media screen and (width:600px)
+{
+    body    {
+        color: red;
+    }  
+}
